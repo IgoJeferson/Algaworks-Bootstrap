@@ -34,3 +34,16 @@
 		color: #FFF;
 	}
 }
+
+.cabecalho h1 {
+	margin: 0;
+	font-size: 3em;
+}
+
+.busca {
+	margin-top: 5px;
+}
+
+.btn-search {
+	height: 34px;
+}
