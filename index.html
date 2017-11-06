@@ -6,6 +6,7 @@
 	<title></title>
 
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
 	<link rel="stylesheet" href="css/index.css">
 </head>
 <body>
@@ -231,8 +232,18 @@
 			                  <div class="input-group-addon">R$</div>
 			                  <input type="text" name="valor" id="Valor" class="form-control">
 			                </div>
-			              </div>
-			            </div>
+						  </div>
+						  	<div class="form-group col-sm-4">
+								<label class="control-label" for="Data">Data de Entrega</label>
+								<div class="input-group date" data-provide="datepicker">
+								<input type="text" name="Data" id="data" class="form-control">
+								<div class="input-group-addon">
+									<span class="glyphicon glyphicon-th"></span>
+								</div>
+								</div>
+							</div>
+						</div>
+						
 			          </div>
 					<div class="modal-footer">
 						<button type="reset" class="btn btn-danger">Limpar</button>
@@ -245,6 +256,8 @@
 
 	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap-datepicker.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap-datepicker.pt-BR.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
